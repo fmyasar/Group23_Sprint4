@@ -27,6 +27,9 @@ public class LoginPage {
     @FindBy(className = "login-link-forgot-pass")
     public WebElement forgotPassword;
 
+    @FindBy(xpath = "//div[@class = 'errortext']")
+    public WebElement errorMessage;
+
     public void login(String username, String password){
         usernameInput.sendKeys(username);
         passwordInput.sendKeys(password);

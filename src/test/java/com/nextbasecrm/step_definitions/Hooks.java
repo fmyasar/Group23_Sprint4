@@ -11,7 +11,7 @@ public class Hooks {
 
     @Before
     public void setUp(){
-        System.out.println("\tthis is coming from BEFORE");
+//        System.out.println("\tthis is coming from BEFORE");
     }
 
     @After
@@ -22,7 +22,6 @@ public class Hooks {
         }
 
         Driver.closeDriver();
-
     }
 
     @Before("@db")
@@ -33,9 +32,7 @@ public class Hooks {
     @After("@db")
     public void closeDb(){
         System.out.println("\tdisconnecting to database...");
-
     }
-
 
 
 }
