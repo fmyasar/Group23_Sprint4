@@ -4,14 +4,11 @@ import com.nextbasecrm.pages.ActivityStream;
 import com.nextbasecrm.pages.LoginPage;
 import com.nextbasecrm.utilities.ConfigurationReader;
 import com.nextbasecrm.utilities.Driver;
-import io.cucumber.java.bs.A;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
-import sun.rmi.runtime.Log;
 
-import java.util.List;
 import java.util.Map;
 
 public class LoginStepDef {
