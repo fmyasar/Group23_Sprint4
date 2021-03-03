@@ -54,6 +54,10 @@ public class Calendar extends BasePage{
     @FindBy (xpath="//span[@data-bx-calendar-view='list']")
     public WebElement schedule;
 
+    // page title
+    @FindBy (css = "span#pagetitle")
+    public WebElement pageTitle;
+
 //    // Add Event under Add++
 //    @FindBy ()
 //    public WebElement addEvent;
@@ -71,4 +75,3 @@ public class Calendar extends BasePage{
 //   // public WebElement resetMenu;
 
 }
-

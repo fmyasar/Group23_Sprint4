@@ -406,4 +406,15 @@ public abstract class BasePage {
     @FindBy(xpath = ".bx-messenger-cl-avatar")
     public WebElement avatarButton;
 
+    //------ Username dropdown elements (right top) -------
+    // user profile
+    @FindBy(xpath = "//*[@id=\"user-name\"]")
+    public static WebElement profileBtn;
+    // my profile
+    @FindBy(className = "menu-popup-item-text")
+    public static WebElement myProfile;
+    // profile edit
+    @FindBy(xpath = "//span[contains(text(),\"Edit Profile\")]")
+    public static WebElement editProfile;
+
 }
